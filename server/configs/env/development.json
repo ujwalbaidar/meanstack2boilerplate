@@ -1,0 +1,24 @@
+{
+	"host": "localhost",
+	"port": 4200,
+	"webHost": "http://localhost:4200",
+	"dbURI": "mongodb://localhost/boilerplate",
+	"userAuths":{
+		"algorithm": "sha256",
+		"secretKey": "secretKey"
+	},
+	"jwt": {
+		"expireTime": "30d",
+		"algorithm": "HS384",
+		"secretKey": "secretKey"
+	},
+	"nodemailerObj": {
+        "host": "smtp.gmail.com",
+        "port": 587,
+        "secure": false,
+        "auth": {
+            "user": "test.test@gmail.com",
+            "pass": "testgmailpassword"
+        }
+    }
+}
